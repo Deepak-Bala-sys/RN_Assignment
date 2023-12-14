@@ -7,7 +7,6 @@ import {navigationRef} from './NavigationRoutes';
 
 export type RootStackParamList = {
   homescreen: undefined;
-  cartlistscreen: undefined;
   splashscreen: undefined;
 };
 

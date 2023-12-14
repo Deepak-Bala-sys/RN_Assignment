@@ -18,7 +18,7 @@ const screenWidth = Dimensions.get('screen').width;
 const APP_COLOR = '#2eb56f';
 
 const HomeScreen = () => {
-  const {data, loading, error} = useSelector((state: any) => state.app);
+  const {data, loading, error} = useSelector((state: any) => state.app); //reading the redux state
   const [activeTab, setActiveTab] = useState('Applications');
   const [appList, setAPPList] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
